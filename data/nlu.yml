@@ -1,0 +1,160 @@
+version: "3.1"
+nlu:
+- intent: Que_temas_tienes
+  examples: |
+    - Que temas tienes?
+    - tienes algun menu
+    - menu
+    - tienes algun tipo de menu
+    - puedo ver que temas trabajas
+    - Nececito algo de ayuda
+    - tendras algun menu
+- intent: Saludar
+  examples: |
+    - Hola
+    - Que tal
+    - Hola, que tal?
+    - Buenos dias
+    - Buenas tardes
+    - Buenas noches
+    - Necesito
+    - Puedes ayudarme?
+    - Hey
+    - Hola que tal
+    - Oye
+    - hola
+    - que tal
+- intent: Despedida
+  examples: |
+    - Adios
+    - Gracias por la ayuda
+    - Gracias por todo, hasta la próxima
+    - Nos vemos
+    - Nos vemos luego
+    - Hasta luego
+    - Gracias bot
+    - Gracias por la ayuda hasta luego!
+    - Gracias por todo
+    - Bye
+    - Hasta la próxima
+    - Chau
+    - adios
+- intent: Afirmacion
+  examples: |
+    - Si
+    - Exacto
+    - Eso es
+    - Por supuesto que si
+    - Suena bien
+    - Correcto
+    - Es Correcto
+    - Okay
+    - Si claro
+    - Es correcto
+    - Eso mismo
+    - Por favor
+    - Afirmativo
+    - si
+- intent: Negacion
+  examples: |
+    - No
+    - Eso no
+    - Nunca
+    - No creo que sea eso
+    - No me agrada
+    - Claro que no
+    - En realidad no
+    - Por supuesto que no
+    - Creo que no
+    - No gracias
+    - No es lo que busco
+    - Negativo
+    - no
+    - creo que es todo
+    - no gracias
+- intent: modo_Acertivo
+  examples: |
+    - Perfecto
+    - Genial
+    - Sorprendente
+    - Muy bien
+    - Eso es lo que buscaba
+    - Justo lo que necesito
+    - Me agrada
+    - Exelente
+    - Super
+    - Cool
+    - super
+- intent: modo_No_Acertivo
+  examples: |
+    - No me ayuda
+    - Gracias por nada
+    - No me estas ayudando mucho
+    - Esa informacion esta mal
+    - Eso no es lo que busco
+    - Me estas mandando mal la informacion
+    - No tienes algo mas?
+    - Eso es todo?
+    - No me sirve la informacion
+    - Tienes algo que pueda ayudarme?
+    - Entonces que sabes
+    - Eso es todo
+- intent: Eres_Bot
+  examples: |
+    - Eres un bot?
+    - Eres humano?
+    - Estoy hablando con un bot?
+    - Estoy hablando con un humano?
+    - Que eres?
+    - Quien eres?
+    - Eres un bot o un humano?
+- intent: Solicitud
+  examples: |
+    - [Logica difusa](informacion)
+    - Quiero informacion sobre el tema de [Redes neuronales aertificiales](informacion)
+    - Necesito informacion sobre el tema de [Neurales biologicos](informacion)
+    - Que es [tema](informacion)
+    - Que es la [Variable linguistica](informacion)
+    - [que es la](informacion) [logica difusa](informacion)
+    - que son las [neurales](informacion) biologicas
+    - [que es](informacion) [logica difusa](informacion)
+    - [que es](informacion) [logica difusa](informacion)
+- intent: Solicitud_img
+  examples: |
+    - Me puedes dar mas ejemplos de [tema](imagen)
+    - Me puedes dar mas informacion de [tema](imagen)
+    - Quiero saber mas acerca de [tema](imagen)
+    - Que mas me puedes decir de [tema](imagen)
+    - Puedes darmame mas
+    - Que mas sabes de [tema](imagen)
+    - Cuentame un poco mas de (imagen)
+    - [cuentame](informacion) un poco mas de [logica difusa](informacion)
+    - [Cuentame](informacion) un poco mas de [logica difusa](informacion)
+- intent: tu_funcion
+  examples: |
+    - Para que eres?
+    - Para que sirves?
+    - Que es lo que haces?
+    - Como me puedes ayudar?
+    - Cual es tu funcion?
+    - De que me sirves?
+    - En que me puedes ayudar?
+    - para que funcionas?
+- intent: menu_IA
+  examples: |
+    - IA
+    - 1
+    - ia
+    - uno
+- intent: menu_LD
+  examples: |
+    - LD
+    - 2
+    - ld
+    - dos
+- intent: menu_RNA
+  examples: |
+    - RNA
+    - 3
+    - rna
+    - tres
